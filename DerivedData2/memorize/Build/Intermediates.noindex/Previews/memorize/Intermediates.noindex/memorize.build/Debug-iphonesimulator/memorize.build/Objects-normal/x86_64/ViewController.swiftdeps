@@ -1,0 +1,296 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "EmojiMemoryGame"
+provides-nominal:
+- "8memorize15EmojiMemoryGameC"
+provides-member:
+- ["8memorize15EmojiMemoryGameC", ""]
+provides-dynamic-lookup:
+- "$currentTheme"
+- "$model"
+- "_currentTheme"
+- "_model"
+- "cards"
+- "choose"
+- "colorTheme"
+- "createMemoryGame"
+- "currentTheme"
+- "model"
+- "nameTheme"
+- "newGame"
+- "score"
+depends-top-level:
+- !private "..."
+- !private "??"
+- "Array"
+- "AssignmentPrecedence"
+- "Color"
+- "EmojiMemoryGame"
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- "MemoryGame"
+- "ObservableObject"
+- "Published"
+- !private "Self"
+- "String"
+- !private "currentTheme"
+- !private "model"
+- !private "objectWillChange"
+- !private "setOfThemes"
+- "theme"
+depends-member:
+- !private ["s18AdditiveArithmeticP", ""]
+- !private ["s18AdditiveArithmeticP", "random"]
+- !private ["Sa", "randomElement"]
+- !private ["Sa", "subscript"]
+- !private ["SK", ""]
+- !private ["SK", "randomElement"]
+- !private ["SK", "subscript"]
+- !private ["Sz", ""]
+- !private ["Sz", "random"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "random"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "randomElement"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "subscript"]
+- !private ["s7CVarArgP", "random"]
+- !private ["s7CVarArgP", "randomElement"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["Sl", ""]
+- !private ["Sl", "randomElement"]
+- !private ["Sl", "subscript"]
+- !private ["SL", ""]
+- !private ["SL", "random"]
+- !private ["10Foundation15ContiguousBytesP", "randomElement"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "randomElement"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s17CustomReflectableP", "random"]
+- !private ["s17CustomReflectableP", "randomElement"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "random"]
+- !private ["s23CustomStringConvertibleP", "randomElement"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "randomElement"]
+- !private ["10Foundation12DataProtocolP", "subscript"]
+- !private ["Se", "random"]
+- !private ["Se", "randomElement"]
+- !private ["Se", "subscript"]
+- !private ["8memorize15EmojiMemoryGameC", "$currentTheme"]
+- !private ["8memorize15EmojiMemoryGameC", "$model"]
+- ["8memorize15EmojiMemoryGameC", "Array"]
+- ["8memorize15EmojiMemoryGameC", "Color"]
+- ["8memorize15EmojiMemoryGameC", "Default_ObjectWillChangePublisher"]
+- ["8memorize15EmojiMemoryGameC", "Int"]
+- ["8memorize15EmojiMemoryGameC", "MemoryGame"]
+- ["8memorize15EmojiMemoryGameC", "ObjectWillChangePublisher"]
+- ["8memorize15EmojiMemoryGameC", "Published"]
+- !private ["8memorize15EmojiMemoryGameC", "Self"]
+- ["8memorize15EmojiMemoryGameC", "String"]
+- ["8memorize15EmojiMemoryGameC", ""]
+- ["8memorize15EmojiMemoryGameC", "_Default_ObjectWillChangePublisher"]
+- !private ["8memorize15EmojiMemoryGameC", "_currentTheme"]
+- !private ["8memorize15EmojiMemoryGameC", "_model"]
+- ["8memorize15EmojiMemoryGameC", "cards"]
+- ["8memorize15EmojiMemoryGameC", "choose"]
+- ["8memorize15EmojiMemoryGameC", "colorTheme"]
+- !private ["8memorize15EmojiMemoryGameC", "createMemoryGame"]
+- !private ["8memorize15EmojiMemoryGameC", "currentTheme"]
+- ["8memorize15EmojiMemoryGameC", "deinit"]
+- ["8memorize15EmojiMemoryGameC", "init"]
+- !private ["8memorize15EmojiMemoryGameC", "model"]
+- ["8memorize15EmojiMemoryGameC", "nameTheme"]
+- ["8memorize15EmojiMemoryGameC", "newGame"]
+- ["8memorize15EmojiMemoryGameC", "objectWillChange"]
+- ["8memorize15EmojiMemoryGameC", "score"]
+- !private ["8memorize15EmojiMemoryGameC", "setOfThemes"]
+- ["8memorize15EmojiMemoryGameC", "theme"]
+- !private ["SE", "random"]
+- !private ["SE", "randomElement"]
+- !private ["SE", "subscript"]
+- !private ["SQ", ""]
+- !private ["SQ", "random"]
+- !private ["SQ", "randomElement"]
+- !private ["SQ", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "randomElement"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s27ExpressibleByIntegerLiteralP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", "random"]
+- !private ["s17FixedWidthIntegerP", "random"]
+- !private ["SH", ""]
+- !private ["SH", "random"]
+- !private ["SH", "randomElement"]
+- !private ["SH", "subscript"]
+- !private ["Si", "random"]
+- !private ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "random"]
+- ["8memorize10MemoryGameV", "Card"]
+- !private ["8memorize10MemoryGameV", "cards"]
+- !private ["8memorize10MemoryGameV", "choose"]
+- !private ["8memorize10MemoryGameV", "init"]
+- !private ["8memorize10MemoryGameV", "score"]
+- !private ["s10MirrorPathP", "random"]
+- !private ["SM", ""]
+- !private ["SM", "randomElement"]
+- !private ["SM", "subscript"]
+- !private ["10Foundation19MutableDataProtocolP", "randomElement"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
+- !private ["Sj", ""]
+- !private ["Sj", "random"]
+- ["7Combine16ObservableObjectP", "Default_ObjectWillChangePublisher"]
+- ["7Combine16ObservableObjectP", "Failure"]
+- !private ["7Combine16ObservableObjectP", "Int"]
+- !private ["7Combine16ObservableObjectP", "MemoryGame"]
+- ["7Combine16ObservableObjectP", "ObjectWillChangePublisher"]
+- ["7Combine16ObservableObjectP", "Published"]
+- !private ["7Combine16ObservableObjectP", "Self"]
+- ["7Combine16ObservableObjectP", ""]
+- ["7Combine16ObservableObjectP", "_Default_ObjectWillChangePublisher"]
+- !private ["7Combine16ObservableObjectP", "_currentTheme"]
+- !private ["7Combine16ObservableObjectP", "_model"]
+- !private ["7Combine16ObservableObjectP", "cards"]
+- !private ["7Combine16ObservableObjectP", "choose"]
+- !private ["7Combine16ObservableObjectP", "colorTheme"]
+- !private ["7Combine16ObservableObjectP", "createMemoryGame"]
+- !private ["7Combine16ObservableObjectP", "currentTheme"]
+- !private ["7Combine16ObservableObjectP", "model"]
+- !private ["7Combine16ObservableObjectP", "nameTheme"]
+- !private ["7Combine16ObservableObjectP", "newGame"]
+- ["7Combine16ObservableObjectP", "objectWillChange"]
+- !private ["7Combine16ObservableObjectP", "score"]
+- !private ["7Combine16ObservableObjectP", "setOfThemes"]
+- !private ["7Combine25ObservableObjectPublisherC", "send"]
+- ["7Combine9PublishedV", "init"]
+- ["7Combine9PublishedV", "projectedValue"]
+- ["7Combine9PublishedV", "subscript"]
+- ["7Combine9PublishedV", "wrappedValue"]
+- !private ["7Combine9PublisherP", "send"]
+- !private ["Sk", ""]
+- !private ["Sk", "randomElement"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", ""]
+- !private ["Sm", "randomElement"]
+- !private ["Sm", "subscript"]
+- !private ["s10SIMDScalarP", "random"]
+- !private ["ST", ""]
+- !private ["ST", "randomElement"]
+- !private ["ST", "subscript"]
+- !private ["SZ", "random"]
+- !private ["s13SignedNumericP", ""]
+- !private ["s13SignedNumericP", "random"]
+- !private ["Sx", ""]
+- !private ["Sx", "random"]
+- !private ["s14_ArrayProtocolP", "randomElement"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "random"]
+- !private ["s24_DestructorSafeContainerP", "randomElement"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "random"]
+- !private ["7SwiftUI18_FormatSpecifiableP", "random"]
+- !private ["s19_HasContiguousBytesP", "randomElement"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "random"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "randomElement"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "random"]
+- !private ["s21_ObjectiveCBridgeableP", "randomElement"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["8memorize5themeV", "cardsToShow"]
+- !private ["8memorize5themeV", "color"]
+- !private ["8memorize5themeV", "emojis"]
+- !private ["8memorize5themeV", "topic"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "Sa"
+- !private "SK"
+- !private "Sz"
+- !private "8CloudKit21CKRecordValueProtocolP"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- "8memorize15EmojiMemoryGameC"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "SH"
+- !private "Si"
+- !private "s25LosslessStringConvertibleP"
+- "8memorize10MemoryGameV"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "Sj"
+- "7Combine16ObservableObjectP"
+- !private "7Combine25ObservableObjectPublisherC"
+- "7Combine9PublishedV"
+- !private "7Combine9PublisherP"
+- !private "Sk"
+- !private "Sm"
+- !private "s10SIMDScalarP"
+- !private "ST"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "7SwiftUI18_FormatSpecifiableP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "8memorize5themeV"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftUI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/os.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UniformTypeIdentifiers.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CloudKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/DeveloperToolsSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UniformTypeIdentifiers.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "45e1530395ecbb3c01ba042b6328daf9"

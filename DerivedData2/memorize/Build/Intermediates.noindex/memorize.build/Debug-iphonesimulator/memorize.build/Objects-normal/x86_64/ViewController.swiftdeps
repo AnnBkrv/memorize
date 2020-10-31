@@ -1,0 +1,592 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "EmojiMemoryGame"
+provides-nominal:
+- "8memorize15EmojiMemoryGameC"
+provides-member:
+- ["8memorize15EmojiMemoryGameC", ""]
+provides-dynamic-lookup:
+- "$currentTheme"
+- "$model"
+- "$store"
+- "_currentTheme"
+- "_model"
+- "_store"
+- "cards"
+- "choose"
+- "colorTheme"
+- "createMemoryGame"
+- "currentTheme"
+- "dealMore"
+- "emojisNotInThisGame"
+- "explainNoMoreEmojisToAdd"
+- "model"
+- "nameTheme"
+- "newGame"
+- "score"
+- "store"
+depends-top-level:
+- "!"
+- !private "-"
+- !private "..."
+- !private "=="
+- !private "??"
+- "Array"
+- "AssignmentPrecedence"
+- "BooleanLiteralType"
+- "EmojiMemoryGame"
+- "EmojiMemoryGameStore"
+- "EmojiTheme"
+- "EnvironmentObject"
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- "MemoryGame"
+- "ObservableObject"
+- "Published"
+- !private "Self"
+- "String"
+- !private "StringLiteralType"
+- "Theme"
+- "UIColor"
+- !private "currentTheme"
+- !private "emojisNotInThisGame"
+- !private "explainNoMoreEmojisToAdd"
+- !private "model"
+- !private "print"
+depends-member:
+- !private ["s18AdditiveArithmeticP", ""]
+- !private ["s18AdditiveArithmeticP", "random"]
+- !private ["Sa", "count"]
+- !private ["Sa", "filter"]
+- !private ["Sa", "init"]
+- !private ["Sa", "randomElement"]
+- !private ["Sa", "remove"]
+- !private ["Sa", "shuffle"]
+- !private ["Sa", "subscript"]
+- !private ["Sa", "suffix"]
+- !private ["SK", ""]
+- !private ["SK", "count"]
+- !private ["SK", "filter"]
+- !private ["SK", "init"]
+- !private ["SK", "randomElement"]
+- !private ["SK", "remove"]
+- !private ["SK", "shuffle"]
+- !private ["SK", "subscript"]
+- !private ["SK", "suffix"]
+- !private ["SK", "utf8"]
+- !private ["Sz", ""]
+- !private ["Sz", "random"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "count"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "filter"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "init"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "random"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "randomElement"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "remove"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "shuffle"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "subscript"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "suffix"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "utf8"]
+- ["s7CVarArgP", "RGB"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "filter"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "random"]
+- !private ["s7CVarArgP", "randomElement"]
+- !private ["s7CVarArgP", "remove"]
+- !private ["s7CVarArgP", "shuffle"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "suffix"]
+- !private ["8memorize10MemoryGameV4CardV", "isHidden"]
+- ["s12CaseIterableP", "Element"]
+- ["s12CaseIterableP", "allCases"]
+- !private ["s12CaseIterableP", "theme"]
+- !private ["Sl", ""]
+- !private ["Sl", "count"]
+- !private ["Sl", "filter"]
+- !private ["Sl", "init"]
+- !private ["Sl", "randomElement"]
+- !private ["Sl", "remove"]
+- !private ["Sl", "shuffle"]
+- !private ["Sl", "subscript"]
+- !private ["Sl", "suffix"]
+- !private ["Sl", "utf8"]
+- !private ["SL", ""]
+- !private ["SL", "random"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- !private ["10Foundation15ContiguousBytesP", "filter"]
+- !private ["10Foundation15ContiguousBytesP", "init"]
+- !private ["10Foundation15ContiguousBytesP", "randomElement"]
+- !private ["10Foundation15ContiguousBytesP", "remove"]
+- !private ["10Foundation15ContiguousBytesP", "shuffle"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
+- !private ["10Foundation15ContiguousBytesP", "suffix"]
+- !private ["10Foundation15ContiguousBytesP", "utf8"]
+- ["s28CustomDebugStringConvertibleP", "RGB"]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "filter"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "randomElement"]
+- !private ["s28CustomDebugStringConvertibleP", "remove"]
+- !private ["s28CustomDebugStringConvertibleP", "shuffle"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "suffix"]
+- !private ["s28CustomDebugStringConvertibleP", "utf8"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "filter"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "random"]
+- !private ["s17CustomReflectableP", "randomElement"]
+- !private ["s17CustomReflectableP", "remove"]
+- !private ["s17CustomReflectableP", "shuffle"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "suffix"]
+- !private ["s17CustomReflectableP", "utf8"]
+- ["s23CustomStringConvertibleP", "RGB"]
+- !private ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "filter"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "random"]
+- !private ["s23CustomStringConvertibleP", "randomElement"]
+- !private ["s23CustomStringConvertibleP", "remove"]
+- !private ["s23CustomStringConvertibleP", "shuffle"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "suffix"]
+- !private ["s23CustomStringConvertibleP", "utf8"]
+- !private ["10Foundation4DataV", "utf8"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "count"]
+- !private ["10Foundation12DataProtocolP", "filter"]
+- !private ["10Foundation12DataProtocolP", "init"]
+- !private ["10Foundation12DataProtocolP", "randomElement"]
+- !private ["10Foundation12DataProtocolP", "remove"]
+- !private ["10Foundation12DataProtocolP", "shuffle"]
+- !private ["10Foundation12DataProtocolP", "subscript"]
+- !private ["10Foundation12DataProtocolP", "suffix"]
+- !private ["10Foundation12DataProtocolP", "utf8"]
+- !private ["Se", "cardsToShow"]
+- !private ["Se", "color"]
+- !private ["Se", "count"]
+- !private ["Se", "emojis"]
+- !private ["Se", "filter"]
+- !private ["Se", "init"]
+- !private ["Se", "json"]
+- !private ["Se", "random"]
+- !private ["Se", "randomElement"]
+- !private ["Se", "remove"]
+- !private ["Se", "shuffle"]
+- !private ["Se", "subscript"]
+- !private ["Se", "suffix"]
+- !private ["Se", "topic"]
+- !private ["Se", "utf8"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- ["7SwiftUI15DynamicPropertyP", "init"]
+- !private ["8memorize15EmojiMemoryGameC", "$currentTheme"]
+- !private ["8memorize15EmojiMemoryGameC", "$model"]
+- ["8memorize15EmojiMemoryGameC", "$store"]
+- ["8memorize15EmojiMemoryGameC", "Array"]
+- ["8memorize15EmojiMemoryGameC", "Default_ObjectWillChangePublisher"]
+- ["8memorize15EmojiMemoryGameC", "EmojiMemoryGameStore"]
+- !private ["8memorize15EmojiMemoryGameC", "EmojiTheme"]
+- ["8memorize15EmojiMemoryGameC", "EnvironmentObject"]
+- ["8memorize15EmojiMemoryGameC", "Int"]
+- ["8memorize15EmojiMemoryGameC", "MemoryGame"]
+- ["8memorize15EmojiMemoryGameC", "ObjectWillChangePublisher"]
+- ["8memorize15EmojiMemoryGameC", "Published"]
+- !private ["8memorize15EmojiMemoryGameC", "Self"]
+- ["8memorize15EmojiMemoryGameC", "String"]
+- ["8memorize15EmojiMemoryGameC", "Theme"]
+- ["8memorize15EmojiMemoryGameC", "UIColor"]
+- ["8memorize15EmojiMemoryGameC", ""]
+- ["8memorize15EmojiMemoryGameC", "_Default_ObjectWillChangePublisher"]
+- !private ["8memorize15EmojiMemoryGameC", "_currentTheme"]
+- !private ["8memorize15EmojiMemoryGameC", "_model"]
+- !private ["8memorize15EmojiMemoryGameC", "_store"]
+- ["8memorize15EmojiMemoryGameC", "cards"]
+- ["8memorize15EmojiMemoryGameC", "choose"]
+- ["8memorize15EmojiMemoryGameC", "colorTheme"]
+- !private ["8memorize15EmojiMemoryGameC", "createMemoryGame"]
+- !private ["8memorize15EmojiMemoryGameC", "currentTheme"]
+- ["8memorize15EmojiMemoryGameC", "dealMore"]
+- ["8memorize15EmojiMemoryGameC", "deinit"]
+- ["8memorize15EmojiMemoryGameC", "emojisNotInThisGame"]
+- ["8memorize15EmojiMemoryGameC", "explainNoMoreEmojisToAdd"]
+- ["8memorize15EmojiMemoryGameC", "init"]
+- !private ["8memorize15EmojiMemoryGameC", "model"]
+- ["8memorize15EmojiMemoryGameC", "nameTheme"]
+- ["8memorize15EmojiMemoryGameC", "newGame"]
+- ["8memorize15EmojiMemoryGameC", "objectWillChange"]
+- !private ["8memorize15EmojiMemoryGameC", "print"]
+- ["8memorize15EmojiMemoryGameC", "score"]
+- ["8memorize15EmojiMemoryGameC", "store"]
+- ["8memorize20EmojiMemoryGameStoreC", ""]
+- ["8memorize10EmojiThemeO", ""]
+- !private ["8memorize10EmojiThemeO", "allCases"]
+- !private ["8memorize10EmojiThemeO", "theme"]
+- !private ["SE", "cardsToShow"]
+- !private ["SE", "color"]
+- !private ["SE", "count"]
+- !private ["SE", "emojis"]
+- !private ["SE", "filter"]
+- !private ["SE", "init"]
+- !private ["SE", "json"]
+- !private ["SE", "random"]
+- !private ["SE", "randomElement"]
+- !private ["SE", "remove"]
+- !private ["SE", "shuffle"]
+- !private ["SE", "subscript"]
+- !private ["SE", "suffix"]
+- !private ["SE", "topic"]
+- !private ["SE", "utf8"]
+- ["7SwiftUI17EnvironmentObjectV", "init"]
+- ["7SwiftUI17EnvironmentObjectV", "projectedValue"]
+- ["7SwiftUI17EnvironmentObjectV", "subscript"]
+- ["7SwiftUI17EnvironmentObjectV", "wrappedValue"]
+- ["SQ", "RGB"]
+- ["SQ", ""]
+- !private ["SQ", "allCases"]
+- !private ["SQ", "cardsToShow"]
+- !private ["SQ", "color"]
+- !private ["SQ", "count"]
+- !private ["SQ", "emojis"]
+- !private ["SQ", "filter"]
+- !private ["SQ", "init"]
+- !private ["SQ", "json"]
+- !private ["SQ", "random"]
+- !private ["SQ", "randomElement"]
+- !private ["SQ", "remove"]
+- !private ["SQ", "shuffle"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "suffix"]
+- !private ["SQ", "theme"]
+- !private ["SQ", "topic"]
+- !private ["SQ", "utf8"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "filter"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "randomElement"]
+- !private ["s25ExpressibleByArrayLiteralP", "remove"]
+- !private ["s25ExpressibleByArrayLiteralP", "shuffle"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", "suffix"]
+- !private ["s27ExpressibleByIntegerLiteralP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", "random"]
+- !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s17FixedWidthIntegerP", "random"]
+- ["SH", "RGB"]
+- !private ["SH", ""]
+- !private ["SH", "allCases"]
+- !private ["SH", "count"]
+- !private ["SH", "filter"]
+- !private ["SH", "init"]
+- !private ["SH", "random"]
+- !private ["SH", "randomElement"]
+- !private ["SH", "remove"]
+- !private ["SH", "shuffle"]
+- !private ["SH", "subscript"]
+- !private ["SH", "suffix"]
+- !private ["SH", "theme"]
+- !private ["SH", "utf8"]
+- !private ["s12IdentifiableP", "cardsToShow"]
+- !private ["s12IdentifiableP", "color"]
+- !private ["s12IdentifiableP", "emojis"]
+- !private ["s12IdentifiableP", "isHidden"]
+- !private ["s12IdentifiableP", "json"]
+- !private ["s12IdentifiableP", "topic"]
+- !private ["Si", "random"]
+- !private ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "random"]
+- ["8memorize10MemoryGameV", "Card"]
+- !private ["8memorize10MemoryGameV", "addMoreCards"]
+- !private ["8memorize10MemoryGameV", "cards"]
+- !private ["8memorize10MemoryGameV", "choose"]
+- !private ["8memorize10MemoryGameV", "init"]
+- !private ["8memorize10MemoryGameV", "score"]
+- !private ["s10MirrorPathP", "random"]
+- !private ["SM", ""]
+- !private ["SM", "count"]
+- !private ["SM", "filter"]
+- !private ["SM", "init"]
+- !private ["SM", "randomElement"]
+- !private ["SM", "remove"]
+- !private ["SM", "shuffle"]
+- !private ["SM", "subscript"]
+- !private ["SM", "suffix"]
+- !private ["SM", "utf8"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- !private ["10Foundation19MutableDataProtocolP", "filter"]
+- !private ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "randomElement"]
+- !private ["10Foundation19MutableDataProtocolP", "remove"]
+- !private ["10Foundation19MutableDataProtocolP", "shuffle"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
+- !private ["10Foundation19MutableDataProtocolP", "suffix"]
+- !private ["10Foundation19MutableDataProtocolP", "utf8"]
+- ["So8NSCodingP", "RGB"]
+- ["So8NSCodingP", ""]
+- ["So9NSCopyingP", "RGB"]
+- ["So21NSItemProviderReadingP", "RGB"]
+- ["So21NSItemProviderWritingP", "RGB"]
+- ["So8NSObjectC", "RGB"]
+- ["So8NSObjectP", "RGB"]
+- ["So8NSObjectP", ""]
+- ["So14NSSecureCodingP", "RGB"]
+- !private ["Sj", ""]
+- !private ["Sj", "random"]
+- !private ["7Combine16ObservableObjectP", "Array"]
+- ["7Combine16ObservableObjectP", "Default_ObjectWillChangePublisher"]
+- !private ["7Combine16ObservableObjectP", "EmojiTheme"]
+- ["7Combine16ObservableObjectP", "EnvironmentObject"]
+- ["7Combine16ObservableObjectP", "Failure"]
+- !private ["7Combine16ObservableObjectP", "Int"]
+- !private ["7Combine16ObservableObjectP", "MemoryGame"]
+- ["7Combine16ObservableObjectP", "ObjectWillChangePublisher"]
+- ["7Combine16ObservableObjectP", "Published"]
+- !private ["7Combine16ObservableObjectP", "Self"]
+- ["7Combine16ObservableObjectP", ""]
+- ["7Combine16ObservableObjectP", "_Default_ObjectWillChangePublisher"]
+- !private ["7Combine16ObservableObjectP", "_currentTheme"]
+- !private ["7Combine16ObservableObjectP", "_model"]
+- !private ["7Combine16ObservableObjectP", "cards"]
+- !private ["7Combine16ObservableObjectP", "choose"]
+- !private ["7Combine16ObservableObjectP", "colorTheme"]
+- !private ["7Combine16ObservableObjectP", "createMemoryGame"]
+- !private ["7Combine16ObservableObjectP", "currentTheme"]
+- !private ["7Combine16ObservableObjectP", "emojisNotInThisGame"]
+- !private ["7Combine16ObservableObjectP", "explainNoMoreEmojisToAdd"]
+- !private ["7Combine16ObservableObjectP", "model"]
+- !private ["7Combine16ObservableObjectP", "nameTheme"]
+- !private ["7Combine16ObservableObjectP", "newGame"]
+- ["7Combine16ObservableObjectP", "objectWillChange"]
+- !private ["7Combine16ObservableObjectP", "print"]
+- !private ["7Combine16ObservableObjectP", "score"]
+- ["7Combine9PublishedV", "init"]
+- ["7Combine9PublishedV", "projectedValue"]
+- ["7Combine9PublishedV", "subscript"]
+- ["7Combine9PublishedV", "wrappedValue"]
+- !private ["Sk", ""]
+- !private ["Sk", "count"]
+- !private ["Sk", "filter"]
+- !private ["Sk", "init"]
+- !private ["Sk", "randomElement"]
+- !private ["Sk", "remove"]
+- !private ["Sk", "shuffle"]
+- !private ["Sk", "subscript"]
+- !private ["Sk", "suffix"]
+- !private ["Sk", "utf8"]
+- !private ["Sm", ""]
+- !private ["Sm", "count"]
+- !private ["Sm", "filter"]
+- !private ["Sm", "init"]
+- !private ["Sm", "randomElement"]
+- !private ["Sm", "remove"]
+- !private ["Sm", "shuffle"]
+- !private ["Sm", "subscript"]
+- !private ["Sm", "suffix"]
+- !private ["Sm", "utf8"]
+- !private ["10Foundation20ReferenceConvertibleP", "utf8"]
+- !private ["s10SIMDScalarP", "random"]
+- ["ST", ""]
+- !private ["ST", "count"]
+- !private ["ST", "filter"]
+- !private ["ST", "init"]
+- !private ["ST", "randomElement"]
+- !private ["ST", "remove"]
+- !private ["ST", "shuffle"]
+- !private ["ST", "subscript"]
+- !private ["ST", "suffix"]
+- !private ["ST", "utf8"]
+- !private ["SZ", "random"]
+- !private ["s13SignedNumericP", ""]
+- !private ["s13SignedNumericP", "random"]
+- !private ["Sx", ""]
+- !private ["Sx", "random"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s27StringInterpolationProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["8memorize5ThemeV", "cardsToShow"]
+- !private ["8memorize5ThemeV", "color"]
+- !private ["8memorize5ThemeV", "emojis"]
+- !private ["8memorize5ThemeV", "json"]
+- !private ["8memorize5ThemeV", "topic"]
+- ["So7UIColorC", "RGB"]
+- !private ["So18UIFocusEnvironmentP", ""]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "filter"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "randomElement"]
+- !private ["s14_ArrayProtocolP", "remove"]
+- !private ["s14_ArrayProtocolP", "shuffle"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s14_ArrayProtocolP", "suffix"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "random"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "filter"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "randomElement"]
+- !private ["s24_DestructorSafeContainerP", "remove"]
+- !private ["s24_DestructorSafeContainerP", "shuffle"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s24_DestructorSafeContainerP", "suffix"]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "random"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s26_ExpressibleByColorLiteralP", "RGB"]
+- !private ["7SwiftUI18_FormatSpecifiableP", "random"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s19_HasContiguousBytesP", "filter"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "randomElement"]
+- !private ["s19_HasContiguousBytesP", "remove"]
+- !private ["s19_HasContiguousBytesP", "shuffle"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s19_HasContiguousBytesP", "suffix"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "filter"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "random"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "randomElement"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "remove"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "shuffle"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "suffix"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "RGB"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "RGB"]
+- !private ["s21_ObjectiveCBridgeableP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "filter"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "random"]
+- !private ["s21_ObjectiveCBridgeableP", "randomElement"]
+- !private ["s21_ObjectiveCBridgeableP", "remove"]
+- !private ["s21_ObjectiveCBridgeableP", "shuffle"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "suffix"]
+- !private ["s21_ObjectiveCBridgeableP", "utf8"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "Sa"
+- !private "SK"
+- !private "Sz"
+- !private "8CloudKit21CKRecordValueProtocolP"
+- "s7CVarArgP"
+- !private "8memorize10MemoryGameV4CardV"
+- "s12CaseIterableP"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation4DataV"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- "7SwiftUI15DynamicPropertyP"
+- "8memorize15EmojiMemoryGameC"
+- "8memorize20EmojiMemoryGameStoreC"
+- "8memorize10EmojiThemeO"
+- !private "SE"
+- "7SwiftUI17EnvironmentObjectV"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s17FixedWidthIntegerP"
+- "SH"
+- !private "s12IdentifiableP"
+- !private "Si"
+- !private "s25LosslessStringConvertibleP"
+- "8memorize10MemoryGameV"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So14NSSecureCodingP"
+- !private "Sj"
+- "7Combine16ObservableObjectP"
+- "7Combine9PublishedV"
+- !private "Sk"
+- !private "Sm"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "s10SIMDScalarP"
+- "ST"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "8memorize5ThemeV"
+- "So7UIColorC"
+- !private "So18UIFocusEnvironmentP"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- "s26_ExpressibleByColorLiteralP"
+- !private "7SwiftUI18_FormatSpecifiableP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftUI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/os.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UniformTypeIdentifiers.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CloudKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/DeveloperToolsSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UniformTypeIdentifiers.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "c94e83e3b5c1bc205f47c40700cff3f8"
