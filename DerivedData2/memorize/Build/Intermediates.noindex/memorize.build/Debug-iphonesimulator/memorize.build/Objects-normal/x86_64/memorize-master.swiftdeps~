@@ -1,0 +1,22 @@
+version: "Apple Swift version 5.3 (swiftlang-1200.0.29.2 clang-1200.0.30.1)"
+options: "d23760afa9f4358a7000b82652063350"
+build_time: [1604145635, 118163000]
+inputs:
+  "/Users/annabukreeva/Desktop/Developer_Apps/memorize/memorize/Model/MemoryGame.swift": !dirty [1603788167, 254575009]
+  "/Users/annabukreeva/Desktop/Developer_Apps/memorize/memorize/Views/EmojiMemoryGameView.swift": !dirty [1604132299, 240438391]
+  "/Users/annabukreeva/Desktop/Developer_Apps/memorize/memorize/Game-Specific Structs/cardify.swift": !dirty [1603783601, 482219991]
+  "/Users/annabukreeva/Desktop/Developer_Apps/memorize/memorize/Extensions/color_extension.swift": !dirty [1603701259, 144391798]
+  "/Users/annabukreeva/Desktop/Developer_Apps/memorize/memorize/Extensions/array+identifiable.swift": !dirty [1601820494, 627781480]
+  "/Users/annabukreeva/Desktop/Developer_Apps/memorize/memorize/ViewController.swift": !dirty [1604132164, 58236467]
+  "/Users/annabukreeva/Desktop/Developer_Apps/memorize/memorize/Game-Specific Structs/EditableText 2.swift": !dirty [1591645684, 0]
+  "/Users/annabukreeva/Desktop/Developer_Apps/memorize/memorize/Game-Specific Structs/UI/GridLayout.swift": !dirty [1601396081, 204889418]
+  "/Users/annabukreeva/Desktop/Developer_Apps/memorize/memorize/Views/themeView.swift": !dirty [1604139297, 485727819]
+  "/Users/annabukreeva/Desktop/Developer_Apps/memorize/memorize/Game-Specific Structs/UI/Grid.swift": !dirty [1601802773, 649874979]
+  "/Users/annabukreeva/Desktop/Developer_Apps/memorize/memorize/memorizeApp.swift": !dirty [1604133491, 964273183]
+  "/Users/annabukreeva/Desktop/Developer_Apps/memorize/memorize/Extensions/array+only.swift": !dirty [1601299180, 303055440]
+  "/Users/annabukreeva/Desktop/Developer_Apps/memorize/memorize/Model/EmojiTheme.swift": !dirty [1603959681, 374709082]
+  "/Users/annabukreeva/Desktop/Developer_Apps/memorize/memorize/Game-Specific Structs/UI/pie.swift": !dirty [1601453398, 117312625]
+  "/Users/annabukreeva/Desktop/Developer_Apps/memorize/memorize/Game-Specific Structs/UI/CardView.swift": !dirty [1602161019, 70950123]
+  "/Users/annabukreeva/Desktop/Developer_Apps/memorize/memorize/Model/memorizeTheme.swift": !dirty [1604139032, 686527955]
+  "/Users/annabukreeva/Desktop/Developer_Apps/memorize/memorize/Views/themeChooser.swift": !dirty [1604138651, 514383622]
+  "/Users/annabukreeva/Desktop/Developer_Apps/memorize/memorize/Model/store.swift": !dirty [1603896736, 400981632]

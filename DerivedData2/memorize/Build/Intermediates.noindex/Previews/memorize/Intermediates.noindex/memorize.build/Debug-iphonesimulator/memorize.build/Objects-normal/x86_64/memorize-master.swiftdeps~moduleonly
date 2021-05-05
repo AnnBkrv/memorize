@@ -1,0 +1,13 @@
+version: "Apple Swift version 5.3 (swiftlang-1200.0.29.2 clang-1200.0.30.1)"
+options: "b08c098a5a7a22287b196d0cc2331809"
+build_time: [1601396669, 462526000]
+inputs:
+  "/Users/annabukreeva/Desktop/memorize/memorize/MemoryGame.swift": [1601396589, 598709810]
+  "/Users/annabukreeva/Desktop/memorize/memorize/EmojiMemoryGameView.swift": [1601396669, 296161827]
+  "/Users/annabukreeva/Desktop/memorize/memorize/array+identifiable.swift": [1601296138, 378765687]
+  "/Users/annabukreeva/Desktop/memorize/memorize/ViewController.swift": [1601396589, 583903101]
+  "/Users/annabukreeva/Desktop/memorize/memorize/GridLayout.swift": [1601396081, 204889418]
+  "/Users/annabukreeva/Desktop/memorize/memorize/Grid.swift": [1601296138, 312552443]
+  "/Users/annabukreeva/Desktop/memorize/memorize/memorizeApp.swift": [1601220885, 659599890]
+  "/Users/annabukreeva/Desktop/memorize/array+only.swift": [1601299180, 303055440]
+  "/Users/annabukreeva/Desktop/memorize/memorize/memorizeTheme.swift": [1601380772, 212443305]

@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.3 (swiftlang-1200.0.29.2 clang-1200.0.30.1)"
+options: "c8700d81398cda58148f06b997e91f29"
+build_time: [1601202593, 767802000]
+inputs:
+  "/Users/annabukreeva/Desktop/memorize/memorize/MemoryGame.swift": !dirty [1601199264, 511566735]
+  "/Users/annabukreeva/Desktop/memorize/memorize/ContentView.swift": !dirty [1601199051, 977893218]
+  "/Users/annabukreeva/Desktop/memorize/memorize/ViewController.swift": !dirty [1601198899, 706272943]
+  "/Users/annabukreeva/Desktop/memorize/memorize/memorizeApp.swift": !dirty [1601198646, 980947731]
