@@ -25,6 +25,10 @@ struct Theme : Identifiable, Codable, Equatable { // Equatable protocol so i can
         
     }
     
+    func isAllowedToRemoveEmoji() -> Bool {
+        self.emojis.count > self.cardsToShow!
+    }
+    
     init (topic:String, emojis:[String], cardsToShow:Int, color: UIColor.RGB, id: UUID? = nil) {
         self.id = id ?? UUID()
         self.topic = topic
@@ -36,13 +40,7 @@ struct Theme : Identifiable, Codable, Equatable { // Equatable protocol so i can
 }
 
 class EmojiMemoryGameStore : ObservableObject {
-//    @Published var setOfThemes : [theme] {
-//        get{
-//            [emojis_set_one, emojis_set_two, emojis_set_three, emojis_set_four, emojis_set_five, emojis_set_six]}
-//        set {
-////                setOfThemes = newValue
-//            }
-//    } // when you use this syntax, you are setting your variable with only the getter. there is no setter. so now you can't change this variable
+
 
     @Published var setOfThemes = [Theme]()
     private var autosave: AnyCancellable? //publisher to emit changes
@@ -70,18 +68,50 @@ class EmojiMemoryGameStore : ObservableObject {
         }
     }
     
-    func addNewTheme(named name: String = "Untitled") {
-        setOfThemes.append(Theme(topic: name, emojis: ["🐼","🐔","🦁", "🐙", "🐉", "🐌"],
+    func addNewTheme() {
+        setOfThemes.append(Theme(topic: "Untitled\(setOfThemes.count+1)", emojis: ["🐣","🐿","🐲", "🕊", "🦅", "🐘"],
                                   cardsToShow: 6, color: UIColor.blue.rgb))
     }
     
     func addEmoji(_ newEmojis: String, theme : Theme){
         if let index = setOfThemes.firstIndex(where: {$0 == theme}) {
-            setOfThemes[index].emojis.append(contentsOf: [newEmojis]) //probably could do this with mapping somehow.
-//            .onDelete{ indexSet in
-//            indexSet.map { store.documents[$0]}.forEach { document in
-//                store.removeDocument(document)
-//            }
+//            setOfThemes[index].emojis.append(contentsOf: [newEmojis])
+            for item in Array(newEmojis) {
+                let trimmedEmoji = String(item).trimmingCharacters(in: .whitespaces)
+                if !setOfThemes[index].emojis.contains(trimmedEmoji), trimmedEmoji != "" {
+                    setOfThemes[index].emojis.append(trimmedEmoji)
+                }
+            }
+        }
     }
+    
+    func removeEmoji(_ emoji : String, from theme:Theme) {
+        if let index = setOfThemes.firstIndex(where: {$0 == theme}), theme.isAllowedToRemoveEmoji() {
+            setOfThemes[index].emojis = setOfThemes[index].emojis.filter { $0 != emoji }
+        }
     }
+    
+    func increaseCardNumber(for theme: Theme){
+        if let index = setOfThemes.firstIndex(where: {$0 == theme}) {
+            setOfThemes[index].cardsToShow! += 1
+        }
+    }
+    
+    func decreaseCardNumber(for theme : Theme){
+        if let index = setOfThemes.firstIndex(where: {$0 == theme}) {
+            setOfThemes[index].cardsToShow! -= 1
+        }
+    }
+    
+    
+    func changeColor(_ color : Color, theme : Theme){
+        if let index = setOfThemes.firstIndex(where: {$0 == theme}) {
+            setOfThemes[index].color = UIColor(color).rgb
+        }
+    }
+    
+    func removeTheme(_ theme: Theme) {
+        setOfThemes = setOfThemes.filter { $0 != theme }
+    }
+    
 }

@@ -11,18 +11,19 @@ import SwiftUI
 struct EmojiMemoryGameView: View {
     @ObservedObject var ViewModel: EmojiMemoryGame
     @State var explainNoMoreEmojis = false
-//    @Binding var theme : Theme
+    @EnvironmentObject var store : EmojiMemoryGameStore
+    
     var body: some View {
         VStack{
             HStack{
-                themeChooser(ViewModel: ViewModel)
+                ThemeChooser(ViewModel: ViewModel)
                 Spacer()
                 Text("Your Score: \(ViewModel.score)")
                     .font(Font.largeTitle)
                 Spacer()
                 Button("New game") {
                     withAnimation(Animation.easeInOut(duration: 1)){
-                        ViewModel.newGame()}
+                        ViewModel.newGame(gameTheme : store.setOfThemes.randomElement()!)}
                 }
             }.padding([.leading, .trailing, .top])
             Grid(ViewModel.cards) { card in

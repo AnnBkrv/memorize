@@ -31,7 +31,7 @@ enum EmojiTheme: CaseIterable {
             
         case .activities: return Theme(topic : "Activities", emojis : ["🥋", "🥊", "🤿", "🎹", "🎬", "🪁", "🎳", "🛹", "🏄🏻‍♂️", "♟"], cardsToShow : 6, color : UIColor.red.rgb)
             
-        case .myth: return Theme(topic : "Mythical Creatures", emojis : ["🐉", "🐲", "🧜🏻‍♀️", "🧝🏻‍♀️", "🧞‍♂️", "🧛🏻‍♂️", "🧚🏿‍♀️"], cardsToShow : 6, color : UIColor.blue.rgb)
+        case .myth: return Theme(topic : "Mythical Creatures", emojis : ["🐉", "🐲", "🧜🏻‍♀️", "🧝🏻‍♀️", "🧞‍♂️", "🧛🏻‍♂️", "🧚"], cardsToShow : 6, color : UIColor.blue.rgb)
 
             
         case .travel: return Theme(topic : "Travel", emojis : ["🗽", "🗺", "🌋", "🌁", "🕌", "🏛", "🌆", "🗿", "⚓️", "🚂", "🛫"], cardsToShow : 6, color : UIColor.magenta.rgb)
